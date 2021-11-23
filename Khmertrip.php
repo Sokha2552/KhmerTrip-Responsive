@@ -29,25 +29,26 @@
     $(document).ready(function(){
       $('[data-toggle="tooltip"]').tooltip();
     });
-    </script>
+  </script>
     
-  <div id="slideshow">
-    <div class="fullwidthbanner-container" style="overflow: visible;">
-      <nav class="navbar navbar-expand-sm navbar-light bg-light fixed-top">
-          <h1 class="logo navbar-brand">
-              <a href="/" title="Khmertrip">
-                  <img src="	https://khmertrips.com/img/logo-website-xs.png" alt="logo">
-              </a>
-          </h1>
+  
+ 
+      <nav class="navbar navbar-expand-sm navbar-light bg-white fixed-top">
+          <div class="logo navbar-brand">
+            <a href="#">
+                <img src="https://khmertrips.com/img/logo-website-xs.png" alt="logo">
+            </a>
+          </div>
           <ul class="navbar-nav">
               <li class="nav-item">
-                  <a><i class="fa fa-shopping-cart" aria-hidden="true" style="font-size: 1.5em;" id="#myicon"></i></a>
+                  <a><i class="fa fa-shopping-cart" aria-hidden="true" style="font-size: 1em;" id="#myicon"></i></a>
               </li>
               <li class="nav-item">
                   <a id="btnLogin" href="#khmertrip-login" class="soap-popupbox">ចូលគណនី</a> 
               </li>
           </ul>
       </nav>
+  <div id="slideshow">
       <div id="carousel-example-1z" class="carousel slide carousel-fade z-depth-1-half" data-ride="carousel">
         <ol class="carousel-indicators">
           <li data-target="#carousel-example-1z" data-slide-to="0" class="active"></li>
@@ -56,13 +57,13 @@
         </ol>
         <div class="carousel-inner" role="listbox">
           <div class="carousel-item active">
-            <img class="d-block w-100" style="height: 700px;" src="https://travelbible.co/wp-content/uploads/2020/04/Solo-Travel-in-Nature-acbfea52bfaf.jpg" alt="First slide">
+            <img class="d-block" src="https://travelbible.co/wp-content/uploads/2020/04/Solo-Travel-in-Nature-acbfea52bfaf.jpg" alt="First slide">
           </div>
           <div class="carousel-item">
-            <img class="d-block w-100" style="height: 700px;" src="https://cdn.idntimes.com/content-images/community/2019/09/chris-lawton-duq1ulztjbm-unsplash-ae1ebe6756166c1c95eec9a42445c890_600x400.jpg" alt="Second slide">
+            <img class="d-block" src="https://cdn.idntimes.com/content-images/community/2019/09/chris-lawton-duq1ulztjbm-unsplash-ae1ebe6756166c1c95eec9a42445c890_600x400.jpg" alt="Second slide">
           </div>
           <div class="carousel-item">
-            <img class="d-block w-100" style="height: 700px;" src="https://www.ideas.org.au/images/resources/blog/Aircraft.png" alt="Third slide">
+            <img class="d-block" src="https://www.ideas.org.au/images/resources/blog/Aircraft.png" alt="Third slide">
           </div>
         </div>
         <a class="carousel-control-prev" href="#carousel-example-1z" role="button" data-slide="prev">
@@ -74,7 +75,7 @@
           <span class="sr-only">Next</span>
         </a>
       </div>
-    </div>
+  
   </div>
     <div class="search-box-wrapper">​​​
         <div class="search-box container">
@@ -174,7 +175,7 @@
                   <div class="col-12">
                       <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
           
-                          <div class="carousel-inner">
+                          <div class="carousel">
                               <div class="carousel-item active">
                                   <div class="row">
           
@@ -487,7 +488,7 @@
         </div>
     </div>
   </div> 
-    <div class="photo summer" data-stellar-background-ratio="0.5">
+  <div class="photo global-map-area" data-stellar-background-ratio="0.5">
       <div class="row">
           <div class="col-lg-3">
               <div style="padding-top: 2.6em; padding-left: 2em;">
